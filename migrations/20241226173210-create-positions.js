@@ -29,10 +29,12 @@ module.exports = {
         allowNull: false,
       },
     });
-    
+
   },
 
   async down (queryInterface, Sequelize) {
     await queryInterface.droptable('Positions')
   }
 };
+ // MODULO 9 = CRIAÇÃO DO PROJETO TIMING PARADO 9:07
+ 
